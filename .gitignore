@@ -1,0 +1,8 @@
+# Ignore Terraform specific files and directories
+# This file is used to specify files and directories that should not be tracked by Git.
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+*.tfvars
+crash.log
